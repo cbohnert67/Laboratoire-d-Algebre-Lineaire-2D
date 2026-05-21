@@ -6,7 +6,7 @@
   [![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
   [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=GitHub&logoColor=white)](https://pages.github.com/)
 
-  *Une plateforme interactive, académique et visuelle pour explorer, expérimenter et maîtriser les transformations linéaires dans $\mathbb{R}^2$.*
+  *Une plateforme interactive, académique et visuelle pour explorer, expérimenter et maîtriser les transformations linéaires dans le plan.*
   
   👉 **[Accéder au Laboratoire en ligne](https://cbohnert67.github.io/Laboratoire-d-Algebre-Lineaire-2D/)**
 </div>
