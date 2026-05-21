@@ -1,19 +1,92 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" height="400" alt="Bannière Algèbre Linéaire" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);" />
+  
+  # 📐 Laboratoire d'Algèbre Linéaire & Géométrie du Plan
+  
+  [![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white)](https://vite.dev/)
+  [![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB)](https://react.dev/)
+  [![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+  [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat&logo=GitHub&logoColor=white)](https://pages.github.com/)
+
+  *Une plateforme interactive, académique et visuelle pour explorer, expérimenter et maîtriser les transformations linéaires dans $\mathbb{R}^2$.*
+  
+  👉 **[Accéder au Laboratoire en ligne](https://cbohnert67.github.io/Laboratoire-d-Algebre-Lineaire-2D/)**
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
-https://ai.studio/apps/0efe72f8-42f8-48d5-908a-31ce4346a34d
+## 🌟 Fonctionnalités Clés
 
-## Run Locally
+Ce laboratoire d'apprentissage géométrique est structuré autour de six espaces interactifs majeurs :
 
-**Prerequisites:**  Node.js
+*   **📘 Cours Théorique Complet** : Définitions rigoureuses, théorèmes fondamentaux et concepts clés de l'algèbre linéaire en dimension 2 (Vecteurs, Matrices, Déterminants, Transformations linéaires et non-linéaires, Valeurs propres et Vecteurs propres). Contient des exemples pratiques du simple au complexe.
+*   **🧪 Simulateur Interactif (Labo)** : Un plan cartésien dynamique en temps réel pour visualiser l'effet géométrique d'une matrice $\begin{pmatrix} a & b \\ c & d \end{pmatrix}$ sur un vecteur, une grille unitaire ou des formes prédéfinies. Les matrices peuvent être injectées directement depuis le cours ou les exercices pour une vérification instantanée.
+*   **🧩 Activités Guidées** : 10 activités pratiques de complexité progressive conçues pour guider l'étudiant dans l'exploration autonome de concepts avancés (cisaillements, projections, symétries, homothéties).
+*   **✏️ Exercices Pratiques** : 10 problèmes avec niveaux de difficulté croissants pour s'entraîner à la manipulation des objets géométriques et des opérations matricielles.
+*   **🎓 Quiz Éducatif** : Un outil d'évaluation complet composé d'une sélection de **20 questions** couvrant l'ensemble du programme avec notation sur 20 en fin de parcours.
+*   **📖 Tutoriel d'Utilisation** : Un guide utilisateur interactif pas-à-pas pour prendre en main rapidement le simulateur et exploiter tout le potentiel de la plateforme.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ Stack Technique
+
+*   **Framework** : [React 19](https://react.dev/) & [Vite 6](https://vite.dev/) (Build extrêmement rapide et HMR).
+*   **Langage** : [TypeScript](https://www.typescriptlang.org/) pour la robustesse et le typage strict des structures matricielles.
+*   **Styles & Design** : [Tailwind CSS v4](https://tailwindcss.com/) pour une interface élégante, épurée et moderne, avec une palette harmonieuse et réactive (mode clair uniquement, conforme aux directives d'apprentissage visuel).
+*   **Formules Mathématiques** : Intégration de [MathJax v3](https://www.mathjax.org/) pour un rendu parfait des formules $\LaTeX$ et des notations matricielles.
+*   **Animations** : Transitions fluides via micro-animations pour une meilleure ergonomie.
+
+---
+
+## 🚀 Lancement Local
+
+### Prérequis
+
+*   [Node.js](https://nodejs.org/) (Version 18 ou supérieure recommandée)
+
+### Instructions
+
+1.  **Cloner le dépôt** :
+    ```bash
+    git clone https://github.com/cbohnert67/Laboratoire-d-Algebre-Lineaire-2D.git
+    cd Laboratoire-d-Algebre-Lineaire-2D
+    ```
+
+2.  **Installer les dépendances** :
+    ```bash
+    npm install
+    ```
+
+3.  **Lancer le serveur de développement** :
+    ```bash
+    npm run dev
+    ```
+    *L'application sera accessible localement à l'adresse [http://localhost:3000](http://localhost:3000).*
+
+4.  **Compiler pour la production** :
+    ```bash
+    npm run build
+    ```
+
+---
+
+## 🌐 Déploiement sur GitHub Pages
+
+Le déploiement est automatisé grâce au script configuré dans l'application :
+
+```bash
+npm run deploy
+```
+*Ce script compile l'application pour la production (`npm run build`) puis téléverse le dossier généré `/dist` sur la branche `gh-pages` de votre dépôt GitHub.*
+
+---
+
+## 👤 Auteur
+
+Conçu et développé pour l'apprentissage visuel et géométrique par **Cédric Bohnert**.
+
+---
+
+<div align="center">
+  <p>© 2026 Laboratoire d'Algèbre Linéaire en dimension 2 — Conçu pour l'apprentissage visuel et géométrique par Cédric Bohnert.</p>
+</div>
