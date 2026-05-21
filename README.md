@@ -1,6 +1,4 @@
-<div align="center">
-  <img width="1200" height="400" alt="Bannière Algèbre Linéaire" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);" />
-  
+
   # 📐 Laboratoire d'Algèbre Linéaire & Géométrie du Plan
   
   [![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=flat&logo=vite&logoColor=white)](https://vite.dev/)
